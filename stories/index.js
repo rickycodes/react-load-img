@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { storiesOf } from '@storybook/react';
-import LoadImage from '../src'
+import LoadImage from '../'
 
 storiesOf('LoadImage', module)
   .add('basic usage', () => {
