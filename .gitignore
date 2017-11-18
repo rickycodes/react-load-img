@@ -1,2 +1,4 @@
 dist
+.storybook
+storybook-static
 node_modules
