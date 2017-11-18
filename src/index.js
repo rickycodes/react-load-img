@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 
-class LoadImage extends Component {
+export default class LoadImage extends Component {
   constructor (props) {
     super(props)
     this.state = {
@@ -41,5 +41,3 @@ class LoadImage extends Component {
 LoadImage.propTypes = {
   src: PropTypes.string.isRequired
 }
-
-export default LoadImage
