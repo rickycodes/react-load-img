@@ -1,10 +1,25 @@
 {
   "env": {
     "production": {
-      "presets": ["env", "react", "stage-1"]
+      "presets": [
+        "env",
+        "react",
+        "stage-1"
+      ]
     },
     "development": {
-      "presets": ["env", "react", "stage-1"]
+      "presets": [
+        "env",
+        "react",
+        "stage-1"
+      ]
+    },
+    "test": {
+      "presets": [
+        "env",
+        "react",
+        "stage-1"
+      ]
     }
   }
 }

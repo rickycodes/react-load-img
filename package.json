@@ -4,10 +4,10 @@
   "description": "declarative images in react",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "release": "npm version patch && npm publish && git push --tags"
+    "release": "jest && npm version patch && npm publish && git push --tags"
   },
   "keywords": [
     "react-load-img",
@@ -23,13 +23,16 @@
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.16",
     "@storybook/addon-links": "^3.2.16",
+    "@storybook/addon-storyshots": "^3.2.16",
     "@storybook/react": "^3.2.16",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
-    "react-dom": "^16.1.1"
+    "jest": "^21.2.1",
+    "react-dom": "^16.1.1",
+    "react-test-renderer": "^16.1.1"
   },
   "dependencies": {
     "react": "^16.1.1"

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots LoadImage basic usage 1`] = `
+<img
+  src="https://upload.wikimedia.org/wikipedia/commons/8/86/Redningsb%C3%A5den_k%C3%B8res_gennem_klitterne_%28high_resolution%29.jpg"
+  width="800"
+/>
+`;
+
+exports[`Storyshots LoadImage failed to load 1`] = `
+<img
+  src="https://upload.wikimedia.org/wikipedia/commons/8/86/fail.jpg"
+/>
+`;
