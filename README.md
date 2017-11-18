@@ -1,4 +1,7 @@
 ## React Load IMG
+[![npm-version](https://img.shields.io/npm/v/react-load-img.svg?style=flat)](https://www.npmjs.com/package/react-load-img)
+[![build status](https://api.travis-ci.org/rickycodes/react-load-img.svg?branch=master)](https://travis-ci.org/rickycodes/react-load-img/)
+
 📷 declarative img in react
 
 ### Install
