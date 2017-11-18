@@ -6,17 +6,17 @@ class LoadImage extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      url: undefined,
+      src: undefined,
       error: undefined
     }
   }
 
   componentDidMount () {
-    const { url } = this.props
+    const { props: { src } } = this
     this.image = new Image()
-    this.image.onload = () => this.setState({ url })
+    this.image.onload = () => this.setState({ src })
     this.image.onerror = (error) => this.setState({ error })
-    this.image.src = url
+    this.image.src = src
   }
 
   componentWillUnmount () {
@@ -25,20 +25,21 @@ class LoadImage extends Component {
   }
 
   render () {
-    if (!this.props.render) {
+    const { state: { src, error }, props: { render } } = this
+    if (!render) {
       return null
     }
     return (
-      this.props.render({
-        url: this.state.url,
-        error: this.state.error
+      render({
+        src,
+        error
       })
     )
   }
 }
 
 LoadImage.propTypes = {
-  url: PropTypes.string.isRequired
+  src: PropTypes.string.isRequired
 }
 
 export default LoadImage
