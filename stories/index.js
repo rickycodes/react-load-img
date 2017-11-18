@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-import { storiesOf } from '@storybook/react';
+import { storiesOf } from '@storybook/react'
 import LoadImage from '../'
 
 storiesOf('LoadImage', module)
