@@ -31,8 +31,8 @@ npm install -S react-load-img
     return src
       ? <img src={src} />
       : error
-        ? 'Failed to load image :('
-        : 'Loading...'
+        ? <div>Failed to load image :(</div>
+        : <div>Loading...</div>
   }
 } />
 ```
