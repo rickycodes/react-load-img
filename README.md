@@ -1,11 +1,11 @@
 ## React Load IMG
-📷 declarative img in react
+📷 pre-load and provide a fallback for images in react
 
 [![npm-version](https://img.shields.io/npm/v/react-load-img.svg?style=flat)](https://www.npmjs.com/package/react-load-img)
 [![build status](https://api.travis-ci.org/rickycodes/react-load-img.svg?branch=master)](https://travis-ci.org/rickycodes/react-load-img/)
 
 ### Why
-The internet can be unpredictable and having a broken image in your web application is very uncool. This provides a simple way to add a pre-loader for a massive image or provide a fallback image in case your image fails to load for whatever reason. All this in a simple declarative react component where the pre-loader and fallback aren't tightly coupled to the component itself!
+The internet can be unpredictable and having a broken image in your web application is very uncool. This provides a simple way to add a pre-loader for a massive image or provide a fallback image in case your image fails to load for whatever reason. All this in a simple declarative react component where the pre-loader and fallback aren't tightly coupled to the component itself
 
 ### Props
 
