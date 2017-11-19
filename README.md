@@ -37,6 +37,6 @@ npm install -S react-load-img
 } />
 ```
 ### License
-Copyright (c) 2016 Ricky Miller (@rickycodes).
+Copyright © 2017 Ricky Miller (@rickycodes).
 
 Released under the [MIT license](https://tldrlegal.com/license/mit-license).
