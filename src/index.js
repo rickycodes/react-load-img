@@ -21,7 +21,7 @@ export default class LoadImage extends Component {
 
   componentWillUnmount () {
     // prevent setState warnings
-    this.image.onload = () => {}
+    this.image.onload = this.image.onerror = () => ({ /* no-op */ })
   }
 
   render () {
