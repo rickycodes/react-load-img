@@ -20,6 +20,10 @@
   ],
   "author": "@ricky-codes",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rickycodes/react-load-img/issues"
+  },
+  "homepage": "https://github.com/rickycodes/react-load-img",
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.16",
     "@storybook/addon-links": "^3.2.16",
