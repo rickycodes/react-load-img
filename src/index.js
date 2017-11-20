@@ -1,6 +1,6 @@
 /* global Image */
 import PropTypes from 'prop-types'
-import React, { Component } from 'react'
+import React, { Component } from 'react' // eslint-disable-line no-unused-vars
 
 export default class LoadImage extends Component {
   constructor (props) {
