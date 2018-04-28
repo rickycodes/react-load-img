@@ -39,10 +39,10 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
-    "jest": "^21.2.1",
+    "jest": "^22.4.3",
     "react-dom": "^16.1.1",
     "react-test-renderer": "^16.1.1",
-    "standard": "^10.0.3"
+    "standard": "^11.0.1"
   },
   "dependencies": {
     "react": "^16.1.1"
