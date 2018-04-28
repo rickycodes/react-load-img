@@ -1,4 +1,6 @@
 # React Load IMG
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/rickycodes/react-load-img.svg)](https://greenkeeper.io/)
 🖼️ pre-load and provide a fallback for images in react
 
 [![npm-version](https://img.shields.io/npm/v/react-load-img.svg?style=flat)](https://www.npmjs.com/package/react-load-img)
